@@ -1,6 +1,5 @@
-# O laço com o while; para repetir o jogo enquanto o usuario nâo acerta o numero/Adicionando tentativas
-# Testando a condição elif
-# Usando também a função format 'f{}'
+# O laço com for
+
 print("*********************************")
 print("Bem vindo ao jogo de adivinhação!")
 print("*********************************")

@@ -1,4 +1,4 @@
-# O laço com for
+# O laço com for (in range) {Transformando do while para o for!}
 
 print("*********************************")
 print("Bem vindo ao jogo de adivinhação!")
@@ -8,7 +8,7 @@ numero_secreto = 42
 total_de_tentativas = 3
 rodada = 1
 
-while (rodada <= total_de_tentativas):
+for rodada in range(1, total_de_tentativas + 1) :
     
     print(f"Tentativa {rodada} de {total_de_tentativas}")
     chute_str = input("Digite o seu número: ")
@@ -19,7 +19,7 @@ while (rodada <= total_de_tentativas):
     maior = chute > numero_secreto
     menor = chute < numero_secreto
 
-    if (acertou):
+    if(acertou):
         print("Você acertou!")
         break
     # Break não seria o ideal, mas deu certo e por enquanto só sei assim :) 

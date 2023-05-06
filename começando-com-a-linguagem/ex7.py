@@ -1,5 +1,4 @@
 # Definindo uma pontuação para o usuário 
-
 import random
 
 print("*********************************")
